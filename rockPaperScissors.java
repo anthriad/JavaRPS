@@ -8,8 +8,6 @@ public class rockPaperScissors {
     // Generate random number between 0 and 2 inclusive
     int computerPick = (int) (System.currentTimeMillis() % 3);
 
-    // Your program for Rock - Paper - Scissors goes here!
-
     // Prompt the user to enter a number 0, 1, or 2
     System.out.println("Enter a number for choosing rock(0), paper(1), or scissors(2): ");
     int userChoice = input.nextInt();
@@ -39,6 +37,6 @@ public class rockPaperScissors {
 
     input.close();
 
-  } // end of main()
+  } 
 
-} // end of class Lab5
+} 
